@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: AGPL-3.0-only
-pragma solidity 0.8.17;
+pragma solidity ^0.8.19;
 
-import "@openzeppelin/access/OwnableUpgradeable.sol";
+import "@openzeppelin-contracts-upgradeable/access/OwnableUpgradeable.sol";
 
 contract Init is OwnableUpgradeable {
 
